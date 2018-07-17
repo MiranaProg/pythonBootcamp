@@ -4,4 +4,15 @@ def print_big(letter):
               'H':[3,3,4,3,3],'I':[4,1,1,1,11],"K":[3,8,11,8,3]}
     for pattern in alphabet[letter.upper()]:
         print(patterns[pattern])
-print_big('k')
+print_big('k') 
+
+
+''' output of big.py"
+*   *
+*  * 
+**  
+*  * 
+*   *
+'''
+
+
