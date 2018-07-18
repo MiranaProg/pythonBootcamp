@@ -23,5 +23,45 @@ def number_pad(numliist):
     print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
     print('   |   |')
     '''
-number_pad(['4' , '2' ,'3', '4' ,'5' ,'6' , '7' , '8' ,'9'])
+def place_marker(list,marker,position):
+    '''
+    :Desc: this function is use to change the notepad value(s)
+    :param list: taking the test_list values
+    :param marker: taking the character to change
+    :param position: taking position where to change in the list
+    :return: a modified list
+    '''
+    list[position-1]=marker
+
+test_list =['4' , '2' ,'3', '4' ,'5' ,'6' , '7' , '8' ,'9']
+number_pad(test_list)
+print('after changing...')
+place_marker(test_list,'@',6)
+number_pad(test_list)
+
+'''
+output would be:
+ 4 | 2 | 3
+   |   |
+-----------
+   |   |
+ 4 | 5 | 6
+   |   |
+-----------
+   |   |
+ 7 | 8 | 9
+   |   |
+after changing...
+   |   |
+ 4 | 2 | 3
+   |   |
+-----------
+   |   |
+ 4 | 5 | @
+   |   |
+-----------
+   |   |
+ 7 | 8 | 9
+   |   |
+'''
 
