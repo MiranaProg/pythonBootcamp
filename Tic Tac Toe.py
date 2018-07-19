@@ -125,6 +125,109 @@ while True:
 
 
 
-'''test_data= ['#','0','#','0','#','0','#' ,'0', '#','0']
-display_board(test_data)
-print(win_check(test_data,'0'))'''
+'''output would be
+Welcome to Tic Tac Toe!!!
+player 1: Do you want to be X or 0?x
+player 1will go first...
+Are you ready to play...?Enter yes or noy
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+choose your next position...(1-9)5
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+   | X |  
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+choose your next position...(1-9)6
+   |   |
+   |   |  
+   |   |
+-----------
+   |   |
+   | X | 0
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+choose your next position...(1-9)7
+   |   |
+ X |   |  
+   |   |
+-----------
+   |   |
+   | X | 0
+   |   |
+-----------
+   |   |
+   |   |  
+   |   |
+choose your next position...(1-9)3
+   |   |
+ X |   |  
+   |   |
+-----------
+   |   |
+   | X | 0
+   |   |
+-----------
+   |   |
+   |   | 0
+   |   |
+choose your next position...(1-9)1
+   |   |
+ X |   |  
+   |   |
+-----------
+   |   |
+   | X | 0
+   |   |
+-----------
+   |   |
+ X |   | 0
+   |   |
+choose your next position...(1-9)7
+choose your next position...(1-9)6
+choose your next position...(1-9)3
+choose your next position...(1-9)2
+   |   |
+ X |   |  
+   |   |
+-----------
+   |   |
+   | X | 0
+   |   |
+-----------
+   |   |
+ X | 0 | 0
+   |   |
+choose your next position...(1-9)4
+   |   |
+ X |   |  
+   |   |
+-----------
+   |   |
+ X | X | 0
+   |   |
+-----------
+   |   |
+ X | 0 | 0
+   |   |
+ congratulations!! you have on the game
+Do you want to play again...(Yes or Noy
+player 1: Do you want to be X or 0?'''
