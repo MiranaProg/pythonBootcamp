@@ -20,3 +20,8 @@ coordinate2 = (8,10)
 li = Line(coordinate1,coordinate2)
 print(li.distance())
 print(li.slope())
+
+'''output:
+9.433981132056603
+1.0
+'''
